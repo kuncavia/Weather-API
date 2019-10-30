@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/assets/styles/style.css">
+    <title>Beta</title>
+</head>
+<body>
+    <div id="search">
+        <input type="text" id="search-city-input">
+        <a id="search-city-button" class="btn btn-danger">Search</a>
+    </div>
+<!-- Front Page -->
+    <article id="grid">
+        <div id="sofia">
+            <div id="sofia-name"></div>
+            <div id="sofia-icon"></div>
+            <div id="sofia-temp"></div>
+            <div id="full-forecast-sofia"><a id="full-sofia" class="btn btn-dark">Full Forecast</a></div>
+        </div>
+        <div id="plovdiv">
+            <div id="plovdiv-name"></div>
+            <div id="plovdiv-icon"></div>
+            <div id="plovdiv-temp"></div>
+            <div id="full-forecast-plovdiv"><a id="full-plovdiv" class="btn btn-dark">Full Forecast</a></div>
+        </div>
+        <div id="varna">
+            <div id="varna-name"></div>
+            <div id="varna-icon"></div>
+            <div id="varna-temp"></div>
+            <div id="full-forecast-varna"><a id="full-varna" class="btn btn-dark">Full Forecast</a></div>
+        </div>
+        <div id="london">
+            <div id="london-name"></div>
+            <div id="london-icon"></div>
+            <div id="london-temp"></div>
+            <div id="full-forecast-london"><a id="full-london" class="btn btn-dark">Full Forecast</a></div>
+        </div>
+        <div id="punta-cana">
+            <div id="punta-cana-name"></div>
+            <div id="punta-cana-icon"></div>
+            <div id="punta-cana-temp"></div>
+            <div id="full-forecast-punta-cana"><a id="full-punta-cana" class="btn btn-dark">Full Forecast</a></div>
+        </div>
+    </article>
+<!-- Current Day -->
+    <main id="page">
+        <div id="city-name"></div>
+        <div id="div-page"></div>
+        <div id="div-type"></div>
+        <div id="div-last"></div>
+        <div id="div-wind"></div>
+        <div id="div-bars"></div>
+        <div id="div-sunrise-sunset"></div>
+    </main>
+    <br>
+<!-- Five Days -->
+    <article id="five-days">
+        <div id="day-one">
+            <div id="one-date"></div>
+            <div id="one-icon"></div>
+            <div id="one-type"></div>
+            <div id="one-temp"></div>
+        </div>
+        <div id="day-two">
+            <div id="two-date"></div>
+            <div id="two-icon"></div>
+            <div id="two-type"></div>
+            <div id="two-temp"></div>
+        </div>
+        <div id="day-three">
+            <div id="three-date"></div>
+            <div id="three-icon"></div>
+            <div id="three-type"></div>
+            <div id="three-temp"></div>
+        </div>
+        <div id="day-four">
+            <div id="four-date"></div>
+            <div id="four-icon"></div>
+            <div id="four-type"></div>
+            <div id="four-temp"></div>
+        </div>
+        <div id="day-five">
+            <div id="five-date"></div>
+            <div id="five-icon"></div>
+            <div id="five-type"></div>
+            <div id="five-temp"></div>
+        </div>
+        <div id="favorite-button"></div>
+    </article>
+    <script type="module" src="./src/app.js"></script>
+</body>
+</html>

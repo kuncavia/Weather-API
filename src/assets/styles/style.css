@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background: #2d91c2;
+    background-image: url(/images/pexels-photo-440731.jpeg);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#grid {
+    color: #ffffff;
+}
+
+#search {
+    padding: 100px 30px 10px 30px;
+}
+
+#div-page {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sofia, #plovdiv, #varna, #london {
+    display:inline-block;
+    margin-right: 40px;
+}
+
+#punta-cana {
+    display:inline-block;
+}
+
+#day-one, #day-two, #day-three, #day-four {
+    display:inline-block;
+    margin-right: 40px;
+}
+
+#day-five {
+    display:inline-block;
+}
